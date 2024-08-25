@@ -5,13 +5,13 @@ const mailBtn = document.getElementById("mail-btn");
 const chatBtn = document.getElementById("chat-btn");
 
 callBtn.addEventListener("click", () => {
-  window.location.href = "tel:+917004594478";
+  window.location.href = "tel:+918219472136";
 });
 
 mailBtn.addEventListener("click", () => {
-  window.location.href = `mailto:hello@gmail.com?body=${msgInput.value}`;
+  window.location.href = `mailto:abhishekkatoch50@gmail.com?body=${msgInput.value}`;
 });
 
 chatBtn.addEventListener("click", () => {
-  window.location.href = `https://wa.me/+917004594477?text=${msgInput.value}`;
+  window.location.href = `https://wa.me/+918219472136?text=${msgInput.value}`;
 });
